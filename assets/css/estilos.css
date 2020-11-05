@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #17408B;
+}
+.contenedor{
+    width:90%;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-self: center;
+    padding: 15px;
+}
+.logo{
+    width: 100px;
+}
+.tituloNBA{
+    color: #C9082A;
+    margin: auto;
+}
+.jugadores{
+    width:90%;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-self: center;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cards{
+    width: 200px;
+    height: 250px;
+    background-color: #C9082A;
+    border-radius: 25px;
+    
+    margin: 10px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.cards:hover .contenedorResto{
+    top:0;
+}
+
+
+
+.txtTitulo{
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.contenedorResto{
+    font-weight: 500px;
+    color: white;
+    display: flex;
+    text-align: center;
+    background: #17408B;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:-100%;
+    margin: 0;
+    padding: 1em;
+    border-radius: 10px;
+}
+.txtP{
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    position: relative;
+}
+.txtSmall{
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    position: relative;
+}
